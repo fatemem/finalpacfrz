@@ -795,7 +795,7 @@ music2->play();
 
 
 //add player
-                            player1=new player(2,2,desktopWidth-3*(desktopWidth/10),desktopHight/11);
+                            player1=new player(2,26,desktopWidth-3*(desktopWidth/10),desktopHight/11);
                             (player1->playerscore).getscore()=0;//;
                             player1->setFlag(QGraphicsItem::ItemIsFocusable);
                             player1->setFocus();
